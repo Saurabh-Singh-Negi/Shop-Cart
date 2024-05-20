@@ -1,11 +1,11 @@
-import { Button, Stack } from "rsuite";
+import { Button } from "rsuite";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import { useShoppingCart } from "../../context/ShoppingCartContext";
 import CartItem from "../CartItem/CartItem";
 import styles from "./CartModal.module.css";
 
 const CartModal = () => {
-  const { handleClose, isOpen, cartQuantity, cartItems } = useShoppingCart();
+  const { handleClose, isOpen, cartItems } = useShoppingCart();
   return (
     <>
       <div className={`${styles.mainContainer} ${isOpen ? styles.open : ""}`}>
