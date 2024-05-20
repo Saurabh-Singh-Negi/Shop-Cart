@@ -1,0 +1,12 @@
+.mainContainer {
+  margin-bottom: 1rem;
+}
+.productImg {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+
+.cartButton {
+  width: 100%;
+}
