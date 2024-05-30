@@ -19,8 +19,8 @@ const CartItem = ({ id, quantity }: CartItemProps) => {
         </div>
         <div className={styles.subContainer}>
           <div>
-            <Text>{storeItem?.name}</Text>
-            <Text>{storeItem?.price}</Text>
+            <Text>Price:{storeItem?.price}</Text>
+            <Text>Name:{storeItem?.name}</Text>
           </div>
 
           <div className={styles.removeContainer}>
