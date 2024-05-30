@@ -12,8 +12,8 @@ const CartModal = () => {
         <p
           style={{
             fontWeight: "bold",
-            fontSize: "1.2rem",
-            paddingTop: "0.5rem",
+            fontSize: "1.4rem",
+            paddingTop: "0.6rem",
           }}
         >
           Cart
