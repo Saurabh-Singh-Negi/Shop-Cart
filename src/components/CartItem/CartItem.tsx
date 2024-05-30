@@ -24,7 +24,7 @@ const CartItem = ({ id, quantity }: CartItemProps) => {
           </div>
 
           <div className={styles.removeContainer}>
-            <span>{totalPrice}</span>
+            <span>Total is : {totalPrice}</span>
             <button
               onClick={() => removeQuantity(id)}
               className={styles.removeBtn}
