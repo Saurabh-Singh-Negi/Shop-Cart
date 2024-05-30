@@ -21,7 +21,7 @@ const CartModal = () => {
         </p>
         <p>New 458</p>
         <p>check this 007</p>
-        <p>check this 45888</p>
+        <h1>Removing 458</h1>
         <div style={{ paddingTop: "2rem" }}>
           {cartItems.map((item) => (
             <CartItem key={item.id} {...item} />
