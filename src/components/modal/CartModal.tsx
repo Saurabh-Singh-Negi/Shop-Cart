@@ -15,11 +15,11 @@ const CartModal = () => {
 
             fontSize: "1.4rem",
             paddingTop: "0.5rem",
-
           }}
         >
           Cart
         </p>
+        <p>New 458</p>
         <div style={{ paddingTop: "2rem" }}>
           {cartItems.map((item) => (
             <CartItem key={item.id} {...item} />
